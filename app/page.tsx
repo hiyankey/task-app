@@ -46,7 +46,7 @@ export default function Home() {
       <div className=" max-w-[600px] mx-auto py-[80px] px-4">
         <div className="flex justify-between h-fit w-full overflow-hidden rounded-[16px] bg-[#f0f0f0] shadow-[2px_4px_20px_0_rgba(0,0,0,0.04)] backdrop-blur-[32px] items-center pr-4">
           <input
-            className="w-full h-full bg-transparent p-4 outline-none text-neutral-400"
+            className="w-full h-full bg-transparent p-4 outline-none text-[#00000060]"
             type="text"
             placeholder="Type..."
             value={newTask}
